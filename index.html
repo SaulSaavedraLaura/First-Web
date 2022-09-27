@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DimiStudios</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <h1>DimiStudios<span>Web</span></h1>
+    <header class="title">
+        <h1>DimiStudios<span> Web</span></h1>
     </header>
 
     <nav>
@@ -47,6 +53,39 @@
     
     <section>
         <h2>Contact Us</h2>
+
+        <form>
+            <fieldset>
+                <legend>Contact Us by filling this form</legend>
+
+                <div>
+                    <label>Name</label>
+                    <input type="text" placeholder="Your name">    
+                </div>
+
+                <div>
+                    <label>Phone</label>
+                    <input type="number" placeholder="Your phone">
+                </div>
+
+
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Your email">
+                </div>
+
+                <div>
+                    <label>Message</label>
+                    <textarea></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+
+            </fieldset>
+        </form>
+
     </section>
     
     <footer>
