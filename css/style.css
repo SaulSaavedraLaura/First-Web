@@ -20,7 +20,6 @@ body {
     background-color: #0097A7;
 }
 .main-nav {
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -29,8 +28,9 @@ body {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
+    padding: 1rem;
 }
 .main-nav a:hover{
     background-color: #FFC107;
     color: black;
-};
+}
