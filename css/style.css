@@ -7,13 +7,17 @@ body {
 }
 .title {    
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 2.5rem;
 }
 .title span {
-    font-size: 4rem;
+    font-size: 2.8rem;
+}
+.subtitle {
+    text-align: center;
+    font-size: 5rem;
 }
 .container{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 .nav-bg {
@@ -21,10 +25,18 @@ body {
 }
 .main-nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .main-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 .main-nav a{
     color: #ffffff;
+    display: block;
+    text-align: center;
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
