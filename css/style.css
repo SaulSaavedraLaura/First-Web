@@ -18,11 +18,40 @@ body {
 }
 .subtitle {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 0rem;
+}
+@media (min-width: 375px) {
+    .subtitle {
+        font-size: 3.3rem;
+    }
+}
+@media (min-width: 768px) {
+    .subtitle {
+        font-size: 5rem;
+    }
 }
 .container{
     max-width: 120rem;
     margin: 0 auto;
+}
+.button{
+    background-color: #0097A7;
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .button{
+        width: auto;
+    }
 }
 .nav-bg {
     background-color: #0097A7;
@@ -56,6 +85,7 @@ body {
     background-size: cover;
     height: 35rem;
     position: relative;
+    
 }
 .hero-container{
     position: absolute;
@@ -74,4 +104,13 @@ body {
 }
 .hero-container p {
     color: white;
+}
+.main{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.footer{
+    text-align: center;
 }
