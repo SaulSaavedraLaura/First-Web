@@ -10,6 +10,14 @@ body {
     font-family: 'Krub', sans-serif;
     background-image: linear-gradient(to top,#DFE9F3 0%, white 100%);
 }
+.shadow {
+    -webkit-box-shadow: 0px 0.5px 13px -1px rgba(176,176,176,1);
+    -moz-box-shadow: 0px 0.5px 13px -1px rgba(176,176,176,1);
+    box-shadow: 0px 0.5px 13px -1px rgba(176,176,176,1);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
 h1 {
     font-size: 3.8rem;
 }
@@ -94,6 +102,7 @@ h1,h2,h3 {
     background-size: cover;
     height: 35rem;
     position: relative;
+    margin-bottom: 2rem;
 
 }
 .hero-container{
@@ -115,4 +124,10 @@ h1,h2,h3 {
 .location {
     display: flex;
     align-items: flex;
+}
+
+/** Services **/
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
